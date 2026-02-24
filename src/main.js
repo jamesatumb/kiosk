@@ -1,5 +1,11 @@
 
-function setup() {
+import xapi from 'xapi';
+
+async function setup() {
+
+  await xapi.Config.UserInterface.Kiosk.Mode.set('On');
+  await xapi.Config.UserInterface.Kiosk.Keypad.set('On');
+
 
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
