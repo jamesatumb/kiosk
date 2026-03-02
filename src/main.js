@@ -1,11 +1,13 @@
-import xapi from 'xapi';
+// add via macro
 
-async function init() {
-  await xapi.Config.UserInterface.Kiosk.Mode.set('On');
-  await xapi.Config.UserInterface.Kiosk.Keypad.set('On');
-}
+// import xapi from 'xapi';
 
-init();
+// async function init() {
+//   await xapi.Config.UserInterface.Kiosk.Mode.set('On');
+//   await xapi.Config.UserInterface.Kiosk.Keypad.set('On');
+// }
+
+// init();
 
 async function setup() {
 
