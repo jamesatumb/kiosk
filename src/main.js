@@ -1,8 +1,9 @@
 
-import xapi from 'xapi';
+
 
 async function setup() {
-
+  
+  import xapi from 'xapi';
   await xapi.Config.UserInterface.Kiosk.Mode.set('On');
   await xapi.Config.UserInterface.Kiosk.Keypad.set('On');
 
