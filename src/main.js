@@ -3,10 +3,13 @@
 
 async function setup() {
   
-  import xapi from 'xapi';
-  await xapi.Config.UserInterface.Kiosk.Mode.set('On');
-  await xapi.Config.UserInterface.Kiosk.Keypad.set('On');
-
+  // import xapi from 'xapi';
+  // await xapi.Config.UserInterface.Kiosk.Mode.set('On');
+  // await xapi.Config.UserInterface.Kiosk.Keypad.set('On');
+  xapi.Config.UserInterface.Kiosk.Mode
+      .set(On);
+  xapi.Config.UserInterface.Keypad.Keypad
+      .set(On);
 
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
