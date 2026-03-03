@@ -26,6 +26,7 @@ async function setup() {
       this.services = [
         { url: this.dialNumber1, name: 'Tech Support' },
         { url: this.dialNumber2, name: 'Help Desk' },
+        { url: openKeypad, name: 'Keypad' },
       ];
     },
     get page() {
