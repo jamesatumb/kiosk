@@ -8,8 +8,12 @@
 // }
 
 // init();
+function openKeypad() {
+  return xapi.command('UserInterface Dialpad Open');
+}
 
 async function setup() {
+  
 
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
