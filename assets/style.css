@@ -104,6 +104,7 @@ button {
 
 .Tech .avatar { background-image: url('./images/TechSupport2.jpg'); }
 .Help .avatar { background-image: url('./images/CustomerService2.jpg'); }
+.Keypad .avatar { background-image: url('./images/dialpad.jpg'); }
 
 .back {
   position: absolute;
